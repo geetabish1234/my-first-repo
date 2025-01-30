@@ -1,0 +1,9 @@
+{
+	"name": "Geetika",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "51b38919-1391-4b21-8095-64a681ab9398",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
