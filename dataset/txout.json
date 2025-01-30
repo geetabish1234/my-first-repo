@@ -1,0 +1,21 @@
+{
+	"name": "txout",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "txp",
+				"folderPath": "output",
+				"fileSystem": "texidata"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

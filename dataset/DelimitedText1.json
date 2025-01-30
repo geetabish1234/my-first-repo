@@ -1,0 +1,49 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "taxiData.csv",
+				"folderPath": "raw",
+				"fileSystem": "texidata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "John",
+				"type": "String"
+			},
+			{
+				"name": "174839",
+				"type": "String"
+			},
+			{
+				"name": "6A48B3C",
+				"type": "String"
+			},
+			{
+				"name": "4.5",
+				"type": "String"
+			},
+			{
+				"name": "STANDARD_FARE",
+				"type": "String"
+			},
+			{
+				"name": "29",
+				"type": "String"
+			}
+		]
+	}
+}
