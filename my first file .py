@@ -35,3 +35,4 @@ def signup():
 
 if __name__ == '__main__':
     app.run(debug=True)
+#this is to test the merge function 
